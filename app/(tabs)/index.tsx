@@ -56,15 +56,55 @@ export default function HomeScreen() {
   // );
 
   // FlexBox
+  // return (
+  //   <View style={styles.container}>
+  //     <View style={styles.wrapperKotak}>
+  //         {/* kotak merah */}
+  //         <View style={styles.merah}></View>
+  //         {/* kotak biru */}
+  //         <View style={styles.biru}></View>
+  //         {/* kotak hijau */}
+  //         <View style={styles.hijau}></View>
+  //     </View>
+  //   </View>
+  // );
+
+  // Border
+  // return (
+  //   <View style={styles.container}>
+  //     <View style={styles.cardBorder}>
+  //       <Text>Border</Text>
+  //     </View>
+  //   </View>
+  // );
+  
+  // Dynamic Styling 
+  // return (
+  //   <View style={styles.container}>
+
+      {/* 1. Override Style */}
+      {/* <View>
+        <View style={[styles.dynamicCard, {backgroundColor: 'red'}]} />
+        <View style={[styles.dynamicCard, {backgroundColor: 'green'}]} />
+        <View style={[styles.dynamicCard, {backgroundColor: 'blue'}]} />
+      </View> */}
+
+      {/* use variable */}
+      {/* <View>
+        <View style={styles.dynamicCard2("red")} />
+      </View> */}
+
+      /*  </View>
+  ); */
+
+  // Position
   return (
     <View style={styles.container}>
-      <View style={styles.wrapperKotak}>
-          {/* kotak merah */}
-          <View style={styles.merah}></View>
-          {/* kotak biru */}
-          <View style={styles.biru}></View>
-          {/* kotak hijau */}
-          <View style={styles.hijau}></View>
+      <View style={styles.header}>
+        <Text style={{ color: 'white' }}>Header</Text>
+      </View>
+      <View style={styles.cardHeader}>
+
       </View>
     </View>
   );
